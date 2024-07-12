@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.header__logo {
+    padding: 0px;
+}
+
+.header__menu {
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: self-end;
+    gap: 15px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    padding: 10px;    
+}
+
+.header__list a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header__list a:hover {
+    color: rgb(86, 76, 76);
+}
+
+.header__menu_button {
+    background-color: #00000000;
+    border-radius: 40px;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header__menu_button a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+.banner_home img {
+    margin-top: 100px;
+}
+
+.headline_ideias {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sol_home {
+    text-align:justify;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.imagem_sol {
+    width: 30%;
+    height: auto;
+}
+
+
+
+.text_home {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.footer {
+    background-color: #000000;
+    width: 100%;
+}
+
+.footer_news {
+    padding: 20px;
+    text-align: center;
+    background-color: #2e2e2e;
+    height: auto;
+}
+
+.caixa_email {
+    width: 300px;
+    height: 25px;
+    
+}
+
+.botao_news {
+    color: #ffffff #000000;
+    padding: 5px;
+}
+
+.footer__texto_news {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu_footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.footer__nav {
+    background-color: #000000;
+    width: 100%;
+    margin: 20px;
+}
+
+.footer__list {
+    width: 100%;
+    text-align: center;
+}
+
+.footer__list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer__list a:hover {
+    color: rgb(107, 107, 107);
+}
